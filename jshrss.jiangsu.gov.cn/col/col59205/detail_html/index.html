@@ -11,10 +11,18 @@
 <!--        });-->
 <!--    </script>-->
     <link type="text/css" href="cssmy.css">
+    <style>
+        .canvas{
+            display: block;
+            margin: 0 auto;
+            border:1px solid white;
+        }
+    </style>
 </head>
 <body>
+
 <a href="score.pdf" class="pdf-download-button pdf-tools-span is-hidden-mobile">下载</a>
-<canvas id="pdf-tutorial-canvas"></canvas>
+<canvas id="pdf-tutorial-canvas" class="canvas"></canvas>
 <script>
     var canvas = document.getElementById('pdf-tutorial-canvas');
     var scale = 1.5;
