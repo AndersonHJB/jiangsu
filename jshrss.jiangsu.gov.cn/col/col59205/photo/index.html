@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link type="text/css" href="myCsss.css">
+    <script type="application/javascript" src="myScript.js"></script>
+</head>
+<body>
+<!-- 触发弹窗 - 图片改为你的图片地址 -->
+<img id="myImg" src="https://c.runoob.com/wp-content/uploads/2017/01/btotbhpudiagtmvlkyrs.jpg" alt="文本描述信息" width="300" height="200">
+
+<!-- 弹窗 -->
+<div id="myModal" class="modal">
+
+    <!-- 关闭按钮 -->
+    <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+    <!-- 弹窗内容 -->
+    <img class="modal-content" id="img01">
+
+    <!-- 文本描述 -->
+    <div id="caption"></div>
+</div>
+
+</body>
+</html>
