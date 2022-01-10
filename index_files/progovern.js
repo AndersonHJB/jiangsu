@@ -1,4 +1,4 @@
-var captchaUrl = "/api/ggfw-hot-center/hot/render";
+// var captchaUrl = "/api/ggfw-hot-center/hot/render";
 var getInfoUrl = "/api/ggfw-hot-center/hot/proGov/getProGovernInfo";
 var getEugenicUrl = "/api/ggfw-hot-center/hot/eugenic/getEugenicInfo";
 var getEugenicResultUrl = "/api/ggfw-hot-center/hot/eugenic/getEugenicInfoResult";
