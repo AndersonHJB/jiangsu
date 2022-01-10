@@ -1,0 +1,17 @@
+document.writeln("<style>");
+document.writeln(".top_box1{width:100%;font-size: 12px;line-height: 35px;margin: 0 auto; padding: 0px;background: url(/picture/0/3e8761febdc3499bb24470fca1850f99.jpg) repeat-x;}	");
+document.writeln(".top_jjkk_01{width:972px; margin:0px auto;height:35px;}");
+document.writeln(".top_jjkk_01 img{float:left; margin-top:5px; margin-left:10px;}");
+document.writeln(".top_jjkk_right{float:right; color:#888; line-height:35px;}");
+document.writeln(".top_jjkk_right a{float:right; color:#888; line-height:35px; margin-left:6px;}");
+document.writeln(".top_jjkk_right a img{ margin-left:0px;}");
+document.writeln("</style>");
+document.writeln("<div class=\"top_box1\">");
+document.writeln("  <div class=\"top_jjkk_01\"> <a style=\"cursor:pointer\" onclick=\"window.open(\'/index.html\',\'_blank\')\"><img src=\"/picture/0/372787aa475c4fac893d762088eef9ba.jpg\" border=\"0\"> </a>");
+document.writeln("    <div class=\"top_jjkk_right\"><a style=\"cursor:pointer\" onclick=\"window.open(\'/col/col79434/index.html\',\'_self\')\">政民互动</a> <a style=\"cursor:pointer\" onclick=\"window.open(\'https://rs.jshrss.jiangsu.gov.cn\',\'_self\')\">政务服务</a>");
+document.writeln("");
+document.writeln(" <a style=\"cursor:pointer\" onclick=\"window.open(\'/col/col77256/index.html\',\'_self\')\">政务公开</a> <a style=\"cursor:pointer\" onclick=\"window.open(\'/col/col79433/index.html\',\'_self\')\">资讯中心</a></div>");
+document.writeln("  </div>");
+document.writeln("</div>");
+document.writeln("");
+document.writeln("");

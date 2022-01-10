@@ -1,0 +1,28 @@
+﻿@charset "gb2312";
+/* CSS Document */
+.esksw-170810{ width:975px; height:300px;}
+.esksw-170810 img{ display:block}
+.esksw-170810 .left-170810{ width:460px ; float:left}
+.esksw-170810 .left-170810  .nr1{ background:url(nr1-170810.jpg) no-repeat; width:460px; height:258px; margin:0px; padding:0px  }
+.esksw-170810 .left-170810  .nr1 .tp1{ width:130px; height:61px; background:url(tp1-170810.png) no-repeat; display:block; float:left}
+.esksw-170810 .left-170810  .nr1 .tp1-1{ width:130px; height:61px; background-position:0 0;margin:10px 0 0 17px}
+.esksw-170810 .left-170810  .nr1 .tp1-2{ width:130px; height:61px; background-position:-130px 0; margin:10px 0 0 17px}
+.esksw-170810 .left-170810  .nr1 .tp1-3{ width:130px; height:61px; background-position:-260px 0; margin:10px 0 0 17px}
+.esksw-170810 .left-170810  .nr1 .tp1-4{ width:130px; height:61px; background-position:0 -61px; margin:20px 0 0 17px}
+.esksw-170810 .left-170810  .nr1 .tp1-5{ width:130px; height:61px; background-position:-130px -61px; margin:20px 0 0 17px}
+.esksw-170810 .left-170810  .nr1 .tp1-6{ width:130px; height:61px; background-position:-260px  -61px; margin:20px 0 0 17px}
+.esksw-170810 .left-170810  .nr1 .tp1-7{ width:130px; height:61px; background-position:0px -122px; margin:20px 0 0 17px}
+.esksw-170810 .left-170810  .nr1 .tp1-8{ width:273px; height:61px; background-position:-130px  -122px; margin:20px 0 0 17px}
+
+
+.esksw-170810 .right-170810{width:481px ; float:left; margin:0 0 0  30px}
+.esksw-170810 .right-170810 .nr1{ background:url(nr2-170810.jpg) no-repeat; width:481px; height:258px;  }
+.esksw-170810 .right-170810  .nr1 .tp2{ width:80px; height:100px; background:url(tp2-170810.png) no-repeat; display:block; float:left}
+.esksw-170810 .right-170810  .nr1 .tp2-1{  background-position:0 0;margin:5px 20px 0 25px}
+.esksw-170810 .right-170810  .nr1 .tp2-2{  background-position:-80px 0px;margin:5px 20px 0 20px}
+.esksw-170810 .right-170810  .nr1 .tp2-3{  background-position:-160px 0px;margin:5px 20px 0 20px}
+.esksw-170810 .right-170810  .nr1 .tp2-4{  background-position:0 -100px;margin:5px 20px 0 25px}
+.esksw-170810 .right-170810  .nr1 .tp2-5{  background-position:-80px -100px;margin:5px 20px 0 20px}
+.esksw-170810 .right-170810  .nr1 .tp2-6{  background-position:-160px -100px;margin:5px 20px 0 20px}
+.esksw-170810 .right-170810  .nr1 .img-170810{ float:left; margin:0 5px}
+.esksw-170810 .right-170810  .nr1 .img2-170810{ float:right; display:block; clear:both; margin:2px 50px 0 0 }

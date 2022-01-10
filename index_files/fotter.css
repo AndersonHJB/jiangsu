@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/* CSS Document */
+*{margin:0;padding:0;border:0;list-style:none;box-sizing:border-box;-moz-box-sizing:border-box; /* Firefox */-webkit-box-sizing:border-box; /* Safari */ line-height:normal}
+.clear{clear: both}
+a{text-decoration:none; cursor: pointer; border: 0;padding: 0; margin: 0}
+a:hover{ text-decoration:none}}
+ul,li{ list-style: none; padding: 0; margin: 0}
+p{ padding: 0 ;margin: 0}
+img{ border: 0}
+input,button,a {outline:0 none !important; blr:expression(this.onFocus=this.blur());}
+
+/*通用头部样式开始*/
+body{font-family: "Helvetica", "PingFangSC", "Microsoft Yahei", "微软雅黑", Arial, sans-serif; margin: 0; padding: 0; font-size: 0.15rem}
+
+/*底部 */
+
+/*pc */
+.footer{ background: #f5f9fd; width: 100%; font-size:0.15rem;}
+.footer_box{  width: 12rem; margin: 0 auto}
+.footer_link{ width: 100%;  text-align: center; border-bottom: 0.01rem solid #c7e0f4;position:relative;z-index:100;}
+/*底部切换*/
+.footer_link .navigation-inner{margin:0 auto;position:relative}
+.navigation-up{height: 0.58rem;}
+.navigation-up .navigation-v3{}
+.navigation-up .navigation-v3 ul{margin:0px;padding:0px; width: 100%; }
+.navigation-up .navigation-v3 li{ width: 33.3%;float: left;height: 0.58rem;  line-height: 0.58rem;color: #333; cursor: pointer; position: relative}
+.navigation-up .navigation-v3 li .inco_xl{   width: 0.1rem; height: 0.1rem ; background: url(inco_sjdwlj.png) no-repeat; background-size: 100%; display: inline-block; margin: 0 0 0 0.1rem }
+.navigation-up .navigation-v3 .nav-up-selected  .inco_xl{background: url(inco_sjdwlj2.png) no-repeat; background-size: 100%; }
+
+.navigation-up .navigation-v3 .nav-up-selected{background:#ebf4fb}
+.navigation-up .navigation-v3 .nav-up-selected-inpage{}
+.navigation-up .navigation-v3 li h2{font-weight:normal;padding:0;margin:0}
+.navigation-up .navigation-v3 li h2 a{color: #333; font-size: 0.15rem;   line-height: 0.58rem;}
+.navigation-down{position:relative;top:0;left:0px;width:100%}
+.navigation-down .nav-down-menu{width:100%;margin:0;background:#ebf4fb;position:relative;  padding: 0.2rem 0  0.2rem 0; display: none}
+.navigation-down .nav-down-menu .navigation-down-inner{margin:auto;width:100%;position:relative}
+.navigation-down .menu-1 a{ color: #333; font-size: 0.15rem; line-height: 0.375rem;width: 33.3%; display: block; float: left; }
+.navigation-down .menu-1 a:hover{ color: #d15149}
+.navigation-down .menu-1 a img {width: 0.6rem;margin: 0 auto -0.1rem auto;display: block;}
+
+.navigation-down .menu-2 a{ color: #333; font-size: 0.15rem; line-height: 0.375rem; margin: 0rem 0.55rem 0.1rem 0.55rem; width: 0.6rem; display: block; float: left; text-align: left}
+.navigation-down .menu-2 a:hover{ color: #d15149}
+.navigation-down .menu-3 a{ color: #333; font-size: 0.15rem; line-height: 0.375rem; margin: 0rem 0.28rem 0.1rem 0.28rem; width: 0.5rem; display: block; float: left; text-align: left}
+.navigation-down  .menu-3 a:hover{ color: #d15149}
+.navigation-down  .menu-3 .sjjg{ margin-bottom:0.1rem;}
+.navigation-down  .menu-3 .sjjg a{width: 26%; text-align: center; margin: 0 3% }
+
+
+/*底部切换 end*/
+.footer_foot{ position: relative; margin: 0.2rem 0 0 0; text-align: center}
+.footer-img1{ position: absolute; left: 0; width: 0.52rem;}
+.footer-img2{ position: absolute; right: 0; width: 1.03rem;}
+.footer_foot a{ margin: 0 0.2rem; color: #398fd7}
+.footer_foot .footer_foot1 a:nth-child(2),.footer_foot .footer_foot1 a:nth-child(3),.footer_foot .footer_foot1 a:nth-child(4){ border-left:0.005rem solid #398fd7 ; height: 2rem;  padding-left: 0.2rem; margin: 0 0.2rem 0 0 }
+.footer_foot a:hover{color: #d15149}
+.footer_foot2{ text-align: center; padding: 0.2rem 0 }
+.footer_foot2 span{  margin:  0 0.1rem;display:inline-block; font-size: 0.14rem; line-height: 0.3rem }
+/*pc end*/
+
+/*手机 */
+@media screen and (max-width:767px) {
+	.footer{ background: #ebf4fb}
+.footer_box{  width: 100%; }
+.footer_link{ width: 100%;  text-align: center; border-bottom: 0.01rem solid #c7e0f4;position:relative;z-index:100;}
+/*底部切换*/
+.navigation-up{height: 1rem;}
+
+.navigation-up .navigation-v3 li{ width: 50%;float: left;height: 1rem;  line-height: 1rem; position: relative}
+.navigation-up .navigation-v3 li .inco_xl{  display: none}
+.navigation-up .navigation-v3 li:nth-child(2):after{  content: ""; height: 0.3rem; width: 0.01rem; background: #c7e0f4; position: absolute; right: 0; top: 50%; margin-top: -0.15rem}
+.navigation-up .navigation-v3 .nav-up-selected-inpage{  display: none}
+.navigation-up .navigation-v3 li h2{font-weight:normal;padding:0;margin:0}
+.navigation-up .navigation-v3 li h2 a{font-size: 0.26rem;   line-height:1rem;}
+.navigation-up .navigation-v3 .nav-up-selected{background:#e2eff9}
+	
+.navigation-down{position:relative;top:0;left:0px;width:100%}
+.navigation-down .nav-down-menu{width:100%;margin:0;background:#e2eff9;position:relative;  padding: 0.2rem 0.3rem; display: none;}
+.navigation-down .nav-down-menu .navigation-down-inner{margin:auto;width:100%;position:relative}
+.navigation-down .menu-1 a{ color: #333; font-size: 0.26rem; line-height: 0.8rem; width:100%; margin: 0; display:inline-block; text-align:left; padding: 0 0.3rem}
+.navigation-down .menu-1 a:hover{ color: #d15149}
+.navigation-down .menu-1 a img {width: 0.6rem;display: block; float: left; margin: 0.12rem 0.1rem 0 0  }
+
+.navigation-down .menu-2 a{ color: #333; font-size: 0.26rem; line-height: 0.65rem; width:20%; margin: 0 2% 0 10%; display:inline-block; text-align:left}
+.navigation-down .menu-2 a:hover{ color: #d15149}
+	
+/*底部切换 end*/
+.footer_foot{ position: relative; padding: 0.4rem 0;  margin: 0; text-align: center; background: #f5f9fd; position: relative}
+.footer-img1{ position: absolute; left: -0.2rem; width: 1.6rem; z-index: 1;top: 0.2rem}
+.footer-img2{ position: absolute; left: 0.3rem; width: 1.5rem; z-index: 1;top: 2.2rem}
+.footer_foot a{ margin: 0 0.2rem; color: #398fd7}
+.footer_foot .footer_foot1 a:nth-child(2),.footer_foot .footer_foot1 a:nth-child(3),.footer_foot .footer_foot1 a:nth-child(4){ border-left:0 }
+.footer_foot a:hover{color: #d15149}
+.footer_foot1{  display:none}
+.footer_foot2{ text-align: center; padding: 0rem 0  0.2rem 2rem; text-align: left;}
+.footer_foot2 span{  margin:  0 0.1rem;display:block; font-size: 0.24rem; line-height: 0.57rem }
+.footer_foot2 br{ display: none}
+	
+	
+	
+	
+	
+	
+}
+/*手机 end */
+
+
+
+/*底部 end*/
+
+
+
