@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<!--    <script src="./pdf.min.js"></script>-->
+        <script src ="https://cdn.bootcss.com/pdf.js/2.0.489/pdf.min.js"></script>
+
+</head>
+<body>
+<script>
+    pdfjsLib.getDocument('score.pdf').then(pdf => {
+        console.log(pdf.numPages);
+    });
+</script>
+<canvas id="pdf-tutorial-canvas"></canvas>
+<script>
+    var canvas = document.getElementById('pdf-tutorial-canvas');
+    var scale = 1.5;
+    pdfjsLib.getDocument('score.pdf').then(pdf => {
+        pdf.getPage(1).then(page => {  // 得到 PDF 文件的第一页
+            var viewport = page.getViewport(scale);  // 根据 PDF 页面信息得到视图
+            var context = canvas.getContext('2d');  // 指定 canvas 画布按 2D 方式渲染
+
+            // 设定画布大小
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            // 设定渲染参数
+            var renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+
+            // 渲染页面
+            page.render(renderContext)
+        });
+    });
+</script>
+</body>
+</html>
