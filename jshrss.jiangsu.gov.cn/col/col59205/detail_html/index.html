@@ -2,17 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>江苏省 2022 公务员考试公共科目成绩查询</title>
 <!--    <script src="./pdf.min.js"></script>-->
         <script src ="https://cdn.bootcss.com/pdf.js/2.0.489/pdf.min.js"></script>
-
+    <script>
+        pdfjsLib.getDocument('score.pdf').then(pdf => {
+            console.log(pdf.numPages);
+        });
+    </script>
 </head>
 <body>
-<script>
-    pdfjsLib.getDocument('score.pdf').then(pdf => {
-        console.log(pdf.numPages);
-    });
-</script>
+
 <canvas id="pdf-tutorial-canvas"></canvas>
 <script>
     var canvas = document.getElementById('pdf-tutorial-canvas');
