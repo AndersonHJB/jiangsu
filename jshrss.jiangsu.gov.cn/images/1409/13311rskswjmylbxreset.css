@@ -1,0 +1,9 @@
+﻿body{ margin:0; padding:0;width:100%;line-height:22px;}html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,p,blockquote,th,td{margin:0;padding:0;}img,body,html{border:none;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}ol,ul {list-style:none;}caption,th {text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;}table{border-spacing:0;border-collapse:collapse;}.hide{display:none;}
+h1,h2,h3,h4,h5,h6,b,i{font-style:normal;font-weight:normal;}
+a{text-decoration:none;}
+a:hover{text-decoration:underline;}
+.clear{clear:both;}
+a:focus, input[type=button] ,input[type=submit] {
+        outline:none;
+}
+
