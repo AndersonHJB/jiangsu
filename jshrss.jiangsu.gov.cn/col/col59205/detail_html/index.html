@@ -5,14 +5,15 @@
     <title>江苏省 2022 公务员考试公共科目成绩查询</title>
 <!--    <script src="./pdf.min.js"></script>-->
         <script src ="https://cdn.bootcss.com/pdf.js/2.0.489/pdf.min.js"></script>
-    <script>
-        pdfjsLib.getDocument('score.pdf').then(pdf => {
-            console.log(pdf.numPages);
-        });
-    </script>
+<!--    <script>-->
+<!--        pdfjsLib.getDocument('score.pdf').then(pdf => {-->
+<!--            console.log(pdf.numPages);-->
+<!--        });-->
+<!--    </script>-->
+    <link type="text/css" href="cssmy.css">
 </head>
 <body>
-
+<a href="score.pdf" class="pdf-download-button pdf-tools-span is-hidden-mobile">下载</a>
 <canvas id="pdf-tutorial-canvas"></canvas>
 <script>
     var canvas = document.getElementById('pdf-tutorial-canvas');
